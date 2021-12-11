@@ -1,0 +1,17 @@
+#print <ol>\n
+
+#assign x=0
+#before \t<li class="headers" id="listItem#x">
+#after </li>
+#between \n
+
+name
+age
+gender
+
+#assign y=1
+#before \t<li class="footers" id="listItem#x">
+
+#5<item#y>
+
+#print <ol>
